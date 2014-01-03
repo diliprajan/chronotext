@@ -4,8 +4,8 @@
 console.log("Loading script.js")
 
 
-var socket = io.connect('http://localhost');
-
+//var socket = io.connect('http://localhost');
+var socket = io.connect(window.location.hostname);
 
 $('button').click(function () {
   //console.log("Button has been clicked!")

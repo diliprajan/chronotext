@@ -21,6 +21,11 @@ app.get('/', function(request, response){
 	response.sendfile(__dirname + "/views/index.html");
 });
 
+io.configure(function () {
+  io.set("transports", ["xhr-polling"]);
+  io.set("polling duration", 10);
+});
+
 /*var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log("Listening on " + port);
