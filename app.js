@@ -12,8 +12,10 @@ var client = require('twilio')(accountSid, authToken);
 var cronJob = require('cron').CronJob;
 //var schedule = require('node-schedule');
 
-
-server.listen(5000);
+var port = process.env.PORT || 5000; // Use the port that Heroku provides or default to 5000
+server.listen(port, function() {
+  console.log("Express server listening on port %d in %s mode", server.address().port, app.settings.env);
+});
 
 app.use(express.static(path.join(__dirname, 'public')));
 
