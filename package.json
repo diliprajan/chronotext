@@ -1,0 +1,38 @@
+{
+  "name": "chronotext",
+  "version": "0.0.0",
+  "description": "Web app that lets you schedule future text messages.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diliprajan/chronotext.git"
+  },
+  "keywords": [
+    "chronotext",
+    "chrono",
+    "text",
+    "sms",
+    "twilio",
+    "future",
+    "text",
+    "time",
+    "machine"
+  ],
+  "author": "diliprajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diliprajan/chronotext/issues"
+  },
+  "homepage": "https://github.com/diliprajan/chronotext",
+  "dependencies": {
+    "path": "~0.4.9",
+    "express": "~3.4.7",
+    "socket.io": "~0.9.16",
+    "twilio": "~1.5.0",
+    "time": "~0.10.0",
+    "cron": "~1.0.1"
+  }
+}

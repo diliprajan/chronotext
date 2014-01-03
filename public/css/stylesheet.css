@@ -1,0 +1,93 @@
+body{
+	color: white;
+	background-color: #2f2336;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.container {
+	float: center;
+	width: 700px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#header {
+	width: 700px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+h1{
+	font-size: 84px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -3px;
+	display: inline;
+	position: relative;
+	color: rgba(0,0,0,1);
+}
+
+h1:after{
+	content: "CHRONOTEXT";
+	position: absolute; right: 5px; bottom: 5px;
+	color: rgba(255,234,50,1);
+}
+
+h3{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#left-box{
+	float: left;
+	width: 450;
+	margin: 0px;
+	padding: 60px;
+
+
+}
+
+#right-box{
+	padding-top: 25px;
+	float: left;
+	
+}
+
+input {
+	height: 33px;
+	width: 200px;
+	border: 1px #d8d8d8 solid;
+	border-radius: 0px;
+	padding-left: 10px;
+	margin: 10px;
+}
+
+button{
+	width: 200px;
+	background-color: #ffea32;
+	color: black;
+	margin: 10px;
+	font-weight: 700;
+}
+
+#message-animation-space{
+	margin-top: 20px;
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+#message-icon{
+	display: none;
+	position: relative;
+}

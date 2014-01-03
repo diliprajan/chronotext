@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.1/twilio.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class='container'>
+			<div id='header'>
+				<h1>CHRONOTEXT</h1>
+				<h3><em>Schedule text messages that send in the future</em><br></h3>
+			</div>
+			
+			<div id="left-box">
+				<br>
+				<input type='text' id='numberInput' placeholder='Phone # - 10 digits'><br>
+		        <input type='text' id='messageInput' placeholder='Message'><br>
+		        <input type="time" id='sendTime'><br>
+		        <input type="date" id='sendDate'><br>
+		        <button type="submit" class="btn"><span>SEND</span></button>
+
+		        <div id="message-animation-space">
+	        		<img id="message-icon" src="img/message_small.jpg">
+	        	</div>
+
+	        </div>
+	        <div id="right-box">
+	        	<img src ='img/time_machine.png'>
+	        </div>
+	        
+	        
+
+
+        </div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
